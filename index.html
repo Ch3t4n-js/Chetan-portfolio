@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- EDIT HERE: Page Title & Meta Description -->
+  <title>Chetan Sharma | 1st Year B.Tech Mechanical Engineering Portfolio</title>
+  <meta name="description" content="Personal portfolio of Chetan Sharma, 1st Year Mechanical Engineering undergraduate. CAD, engineering design, mechanics, and innovation." />
+  
+  <!-- Modern Clean Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Blueprint Dot Grid Accent (Minimalist Background) -->
+  <div class="bg-grid-pattern"></div>
+
+  <!-- ==========================================================================
+       NAVIGATION BAR (Framework for all 4 Pages)
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" title="Home">
+        <div class="brand-icon">
+          <!-- Mechanical Compass / Drafting Icon -->
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"></circle>
+            <circle cx="12" cy="12" r="3"></circle>
+            <line x1="12" y1="3" x2="12" y2="6"></line>
+            <line x1="12" y1="18" x2="12" y2="21"></line>
+            <line x1="3" y1="12" x2="6" y2="12"></line>
+            <line x1="18" y1="12" x2="21" y2="12"></line>
+          </svg>
+        </div>
+        <!-- EDIT HERE: Logo Title and Year / Department -->
+        <span class="brand-title">Chetan<span style="color: var(--primary);">.ME</span></span>
+        <span class="brand-badge">B.Tech 1st Year</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link active">
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="story.html" class="nav-link">
+              <span>Story</span>
+            </a>
+          </li>
+          <li>
+            <a href="skills.html" class="nav-link">
+              <span>Skills &amp; Resume</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-link">
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       PAGE 1: HOME SECTION
+       ========================================================================== -->
+  <main>
+    <div class="container">
+      <section class="hero-layout">
+        <!-- Hero Introduction Text -->
+        <div class="hero-text-content">
+          <div class="pill-badge status">
+            <span class="pill-badge status-dot"></span>
+            <!-- EDIT HERE: Availability status -->
+            <span>1st Year Undergrad &bull; Open to Mentorship &amp; Club Projects</span>
+          </div>
+
+          <div class="hero-greeting">
+            <span>Hello there</span>
+            <span class="wave-hand">👋</span>
+          </div>
+
+          <!-- ==================================================================
+               EDIT HERE: STUDENT NAME
+               Modify "Chetan" or "Sharma" to match your name!
+               ================================================================== -->
+          <h1 class="hero-name">
+            I'm <span class="highlight-blue">Chetan</span> Sharma.
+          </h1>
+
+          <!-- ==================================================================
+               EDIT HERE: SUBTITLE & BRANCH
+               ================================================================== -->
+          <div class="hero-subtitle">
+            <span>B.Tech in Mechanical Engineering</span>
+            <span class="dot-sep">&bull;</span>
+            <span style="color: var(--primary);">Class of 2029</span>
+          </div>
+
+          <!-- ==================================================================
+               EDIT HERE: SHORT INTRODUCTORY BIO
+               ================================================================== -->
+          <p class="hero-bio">
+            Passionate first-year engineering student fascinated by CAD modeling, kinematics, and hands-on fabrication. Transforming ideas from technical sketches into working mechanical systems through disciplined problem-solving.
+          </p>
+
+          <!-- Quick Action Buttons -->
+          <div class="hero-actions">
+            <a href="story.html" class="btn btn-primary">
+              <span>Read My Story</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="skills.html" class="btn btn-secondary">
+              <span>View Skills &amp; Resume</span>
+            </a>
+            <a href="contact.html" class="btn btn-subtle">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <!-- Quick Academic Stats Row -->
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <!-- EDIT HERE: Stat 1 -->
+              <span class="stat-num">1st</span>
+              <span class="stat-label">Year B.Tech</span>
+            </div>
+            <div class="stat-item">
+              <!-- EDIT HERE: Stat 2 -->
+              <span class="stat-num">8.8</span>
+              <span class="stat-label">Current CGPA</span>
+            </div>
+            <div class="stat-item">
+              <!-- EDIT HERE: Stat 3 -->
+              <span class="stat-num">6+</span>
+              <span class="stat-label">Core Technical Skills</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================================================================
+             EDIT HERE: STUDENT PHOTO SECTION
+             You can easily replace the 'src' below with your actual photo path
+             Example: src="assets/images/my_photo.jpg"
+             ================================================================== -->
+        <div class="photo-frame-wrapper">
+          <div class="photo-card">
+            <div class="photo-inner-container">
+              <!-- Student Photo Tag (Replace src with your own image file) -->
+              <img 
+                src="assets/images/profile-placeholder.svg" 
+                alt="Photo of Chetan Sharma" 
+                class="student-photo" 
+                id="student-profile-img"
+              />
+            </div>
+            <!-- Photo Card Footer Meta -->
+            <div class="photo-meta">
+              <div>
+                <!-- EDIT HERE: Name & Enrollment / Roll ID -->
+                <div class="meta-name">Chetan Sharma</div>
+                <div class="meta-roll">ME Dept. &bull; 1st Year</div>
+              </div>
+              <span class="badge-tag-mech">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                </svg>
+                Mechanical
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Minimalist Philosophy / Freshmen Highlights Grid -->
+      <section class="philosophy-grid">
+        <div class="philo-card">
+          <div class="philo-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </div>
+          <h3 class="philo-title">CAD &amp; 3D Modeling</h3>
+          <p class="philo-text">
+            Learning the art of precision drafting and parametric design with AutoCAD and SolidWorks to visualize machine components.
+          </p>
+        </div>
+
+        <div class="philo-card">
+          <div class="philo-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+            </svg>
+          </div>
+          <h3 class="philo-title">Engineering Mechanics</h3>
+          <p class="philo-text">
+            Strong foundation in Newtonian statics, force resolution, trusses, and energy equations that govern real-world mechanisms.
+          </p>
+        </div>
+
+        <div class="philo-card">
+          <div class="philo-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <h3 class="philo-title">Hands-on Workshop</h3>
+          <p class="philo-text">
+            Practical skills in carpentry, fitting, welding, and machine tools, bridging the crucial gap between blueprints and physical parts.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <!-- EDIT HERE: Footer Student Name & Details -->
+          <span class="footer-logo">Chetan Sharma</span>
+          <span class="footer-tagline">1st Year B.Tech Student &bull; Department of Mechanical Engineering</span>
+        </div>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="story.html">Story</a>
+          <a href="skills.html">Skills</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span class="current-year">2026</span> Chetan Sharma. Built with minimal, clean code.</span>
+        <span>Framework: 4 Modular Webpages &bull; Plain HTML, CSS &amp; JS</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
